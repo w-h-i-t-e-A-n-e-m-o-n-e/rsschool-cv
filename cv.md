@@ -31,3 +31,19 @@ function getParticipants(handshakes) {
     }
 }
 ```
+
+## Skills:
+HTML - Intermediate
+
+CSS - Intermediate
+
+JavaScript - Beginner
+
+Python - Beginner
+
+Git - Beginner
+
+## Languages:
+Russian - native
+
+English - C1
