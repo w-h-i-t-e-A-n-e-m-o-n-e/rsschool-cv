@@ -17,7 +17,7 @@ I used to have a portfolio with projects, but then I realized that many of them 
 * ***Courses***:
     * Hexlet: ["preliminary course Python-developer"] (https://pre.hexlet.io/python)
     * Hexlet: ["preliminary course Frontend-developer"] (https://pre.hexlet.io/frontend)
-* ***Codewars profile***: https://www.codewars.com/users/rsschool_d39be6c904dbf68f
+* ***Codewars profile***: https://www.codewars.com/users/whiteAnemone
 
 ## Code example:
 *Code example from Codewars: [Handshake problem](https://www.codewars.com/kata/5574835e3e404a0bed00001b)*
