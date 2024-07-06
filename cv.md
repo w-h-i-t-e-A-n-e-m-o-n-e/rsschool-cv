@@ -15,8 +15,9 @@ I used to have a portfolio with projects, but then I realized that many of them 
 * ***University***: International Academy of Business and New Technologies (MUBiNT), Bachelor's degree, Faculty of Linguistics and Translation, 2016-2021
 * ***University:*** Tomsk State University of Control Systems and Radioelectronics, Informatics and Computer Engineering, since 2022
 * ***Courses***:
-    * Hexlet: ["preliminary course Python-developer"] (https://pre.hexlet.io/python)
-    * Hexlet: ["preliminary course Frontend-developer"] (https://pre.hexlet.io/frontend)
+    * Hexlet: [preliminary course Python-developer](https://pre.hexlet.io/python), 2023
+    * Hexlet: [preliminary course Frontend-developer](https://pre.hexlet.io/frontend), 2023
+    * Python Developer: certificate of professional development, 2023
 * ***Codewars profile***: https://www.codewars.com/users/whiteAnemone
 
 ## Code example:
