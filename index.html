@@ -3,15 +3,147 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
-  <title>Curriculum curriculum vitaeitae</title>
+  <script src="js.js"></script>
+  <title>Document</title>
 </head>
 
 <body>
-
+  <header class="container">
+    <div class="logo">
+      <img src="assets/img/paw_logo.svg" alt="logo">
+      <span>white_anemone</span>
+    </div>
+    <nav>
+      <ul class="nav_list">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education &amp; Courses</a></li>
+        <li><a href="#code-example">Code Example</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="banner container">
+      <div class="banner_img">
+        <img src="assets/img/white_anemone.jpg" alt="left_flower" class="flower_rotate">
+        <figure>
+          <img src="assets/img/cat_picture.jpg" alt="my_photo" class="my_photo">
+          <figcaption>Here will be my photo, when I take it</figcaption>
+        </figure>
+        <img src="assets/img/white_anemone.jpg" alt="right_flower">
+      </div>
+      <h1>Olga Kamakhina - Junior Frontend Developer</h1>
+    </section>
+    <section class="about_me wrapper" id="about-me">
+      <h2 class="section_header">About Me</h2>
+      <p>I've never worked in the IT-industry, but I've always enjoyed working with computers. After school I decided to
+        study programming at university, but things didn't go as planned and I changed my course of study to
+        linguistics. However, a year ago, I realized that I had the skills to become a developer, so now I'm learning
+        programming again. My goal is to master front-end (or maybe even a full stack, because I have an interest in
+        python too) development and pursue a career in this field in the future.</p>
+    </section>
+    <section class="skills_contacts_languages wrapper">
+      <div class="skills" id="skills">
+        <h2 class="section_header">Skills</h2>
+        <div class="skills_lists">
+          <div>
+            <h3 class="skills_lists_title">Good knowledge of:</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="skills_lists_title">Basic knowledge of:</h3>
+            <ul>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="contacts_languages">
+        <div class="contacts" id="contacts">
+          <h2 class="section_header">Contacts</h2>
+          <ul class="contacts_list">
+            <li>Location: Russia, Rybinsk</li>
+            <li>GitHub: <a href="https://github.com/w-h-i-t-e-A-n-e-m-o-n-e" target="_blank">w-h-i-t-e-A-n-e-m-o-n-e</a>
+            </li>
+            <li>Discord: @w-h-i-t-e-a-n-e-m-o-n-e</li>
+          </ul>
+        </div>
+        <div class="languages wrapper" id="languages">
+          <h2 class="section_header">Languages</h2>
+          <ul class="languages_list">
+            <li>Russian - native</li>
+            <li>English - C1</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="projects wrapper" id="projects">
+      <h2 class="section_header">Projects</h2>
+      <p>I used to have a portfolio with projects, but then I realized that many of them weren't so good, and I decided
+        to create a new, better portfolio with better projects. So just wait for the update!</p>
+      <p>For now all I have is <a href="https://github.com/w-h-i-t-e-A-n-e-m-o-n-e/rsschool-cv">this CV</a> and <a
+          href="https://github.com/w-h-i-t-e-A-n-e-m-o-n-e/number_base_converter">number base converter</a>.</p>
+    </section>
+    <section class="education wrapper" id="education">
+      <h2 class="section_header">Education and courses</h2>
+      <ul class="education_list">
+        <li class="university"><span>University:</span> International Academy of Business and New Technologies (MUBiNT),
+          Bachelor's degree,
+          Faculty of Linguistics and Translation, 2016-2021</li>
+        <li class="courses">
+          <span>Courses:</span>
+          <ul class="courses_list">
+            <li>SkillBox: <a href="https://skillbox.ru/course/weblayout/" target="_blank" class="link">"Website
+                layouts"</a> (in progress)</li>
+            <li>Hexlet: <a href="https://pre.hexlet.io/python" target="_blank" class="link">preliminary course
+                Python-developer</a> (2023, <a href="assets/docs/Python.pdf" target="_blank"
+                class="certificate">certificate</a>)
+            </li>
+            <li>Hexlet: <a href="https://pre.hexlet.io/frontend" target="_blank" class="link">preliminary course
+                Frontend-developer</a> (2023, <a href="assets/docs/Frontend.pdf" target="_blank"
+                class="certificate">certificate</a>)</li>
+            <li>Python Developer: certificate of professional development (2023, <a
+                href="assets/docs/Python_developer.pdf" target="_blank" class="certificate">certificate</a>)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="code_example wrapper" id="code-example">
+      <h2 class="section_header">Code example</h2>
+      <p>Code example from Codewars:
+        <a href="https://www.codewars.com/kata/5574835e3e404a0bed00001b" target="_blank" class="link">Handshake
+          problem</a>
+      </p>
+      <pre><code>
+function getParticipants(handshakes) {
+  for (let i = 0; i &lt;= 1000; i++) {
+    if ((i**2 - i)/2 == handshakes) {
+      console.log(i)
+       return i;
+    } else if ((((i-1)**2 - (i-1))/2 &lt; handshakes) && ((i**2 - i)/2 > handshakes)) {
+      console.log(i)
+      return i
+    }
+  }
+      </code></pre>
+    </section>
+    <footer class="footer">
+      <p class="footer_year">&#169; 2024</p>
+      <a href="https://github.com/w-h-i-t-e-A-n-e-m-o-n-e" target="_blank" class="link_github">white_anemone</a>
+      <a href="https://rs.school/courses/javascript-ru"><img src="assets/img/rs-school-logo.svg" alt="logo_rsschool"
+          class="logo_rsschool"></a>
+    </footer>
+  </main>
 </body>
 
 </html>
